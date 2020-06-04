@@ -35,7 +35,7 @@ describe('fallsOutOfMap', () => {
     it(`should return true for { latitude: 6, longitude: 2 } on mapTestSmall`, () => {
       const coords = { latitude: 6, longitude: 2 };
       const actual = fallsOutOfMap(coords, mapTestSmall);
-      expert(actual).toBeTruthy();
+      expect(actual).toBeTruthy();
     })
 
   });
@@ -63,7 +63,7 @@ describe('fallsOutOfMap', () => {
     it(`should return false for { latitude: 2, longitude: 2} on mapTestSmall`, () => {
       const coords = { latitude: 2, longitude: 2 };
       const actual = fallsOutOfMap(coords, mapTestSmall);
-      expert(actual).toBeFalsy();
+      expect(actual).toBeFalsy();
     });
 
   });
