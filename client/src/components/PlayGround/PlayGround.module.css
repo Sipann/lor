@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.directionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.directionsContainer div {
+  cursor: pointer;
+  margin: .6rem;
+  padding: .5rem;
+}
+
+.directionsContainer div:first-child {
+  background: #9f9fde;
+}
+
+.directionsContainer div:nth-child(2) {
+  background: #eaea70;
+}
+
+.directionsContainer div:nth-child(3) {
+  background: #f78d66;
+}
+
+.directionsContainer div:nth-child(4) {
+  background: #f53f3f;
+}
+
+.btnSubmit,
+.btnReset {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-top: 1rem;
+  width: 140px;
+}
+
+
+.btnSubmit {
+  background-color: #2fc5ff;
+}
+
+.btnReset {
+  background-color: #9797a5;
+}
